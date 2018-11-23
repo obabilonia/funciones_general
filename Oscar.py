@@ -1,6 +1,7 @@
 import re
 import nltk
 import pandas as pd
+import numpy as np
 from unidecode import unidecode
 
 def O_word_frequency(df_text, s, idioma = "portuguese"):
