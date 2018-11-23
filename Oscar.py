@@ -54,7 +54,7 @@ def O_check_base(base):
 
     df = pd.DataFrame({'columns':base.columns, 'types':s_types.values, 'missing':s_miss})
         
-    return df[['columns','types','missing']] #ordenando a sequência das colunas
+    return df[['columns','types','missing']] 
 
 
 def O_input_column(df1, df2, id1, id2, idNew, tp='begin'):
